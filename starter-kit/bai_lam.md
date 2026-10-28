@@ -128,7 +128,7 @@ get-content -recuse -Filter *.log|get-content |select-string =
 ## 4.7. Báo cáo tổng hợp
 
 ### Các lệnh đã chạy
-
+get-content -recuse - filter 
 ```shell
 # Ghi lần lượt các lệnh đã chạy, mỗi lệnh một dòng (xoá dòng này)
 mkdir 
